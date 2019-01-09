@@ -1,0 +1,138 @@
+/***** BASE STYLES *****/
+
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+font-family: wisdom;
+src: url('../fonts/wisdom.ttf') format('truetype');
+}
+/***** GRID *****/
+
+.full-width {
+    width: 1400pt;
+    margin: 0 auto;
+    padding:0;
+
+}
+
+/*****the left and right margins to auto to horizontally center that element within its container. *****/
+
+.half-width {
+    width: 700pt;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 466.6pt;
+    margin: 0 auto;
+    float: left;
+    border-top: 1pt solid #dedbdc;
+    border-bottom: 1pt solid #dedbdc;
+}
+
+/******** header section *******/
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 30pt;
+  color: #000000;
+}
+
+header h1 span {
+color: #77a466;
+}
+
+header .half-width ul li {
+  list-style: none;
+  color: #77a466;
+  display:inline;
+  font-size: 14pt;
+  text-transform: uppercase;
+  width:400pt;
+  word-spacing:10pt;
+  text-align: center;
+  padding-right: 100pt;
+  padding-right:20pt;
+}
+
+/******** photo section *******/
+ .full-width #beans {
+  border-top: 3pt solid #77a466;
+  border-bottom: 3pt solid #77a466;
+  width: 1400pt;
+}
+
+/******** main content *******/
+.full-width h2{
+  color: #77a466;
+  text-transform:uppercase;
+}
+
+.full-width p {
+  font-size:16pt;
+  line-height:25pt;
+  padding-bottom: 60pt;
+
+}
+
+
+/******** thirds section *******/
+
+
+
+.third-width h3 {
+  font-size:16pt;
+  line-height:25pt;
+  text-transform: uppercase;
+
+}
+
+.third-width p {
+  font-size:16pt;
+  line-height:25pt ;
+}
+
+.third-width ul {
+    padding-left: 2.5pt;
+    padding-bottom: 69pt;
+}
+
+.third-width ul li {
+font-size:16pt;
+color: #77a466;
+text-transform: uppercase;
+line-height: 25pt;
+list-style: none;
+}
+
+#contact {
+  padding-left:30pt;
+  padding-right:160pt;
+  padding-bottom: 49pt;
+  width:394;
+}
+
+#reviews {
+  padding-left:23pt;
+  padding-right:23pt;
+  border-left:1pt solid #dedbdc;
+  border-right:1pt solid #dedbdc;
+}
+
+/********note the ul is affected, if i just set the padding on li its not amended *******/
+footer .end {
+clear: both;
+text-align: center;
+padding-top:10pt;
+font-size: 16pt;
+text-transform: uppercase;
+}
+
+footer span {
+  color:#77a466;
+  font-family: wisdom;
+  text-transform:lowercase;
+}
